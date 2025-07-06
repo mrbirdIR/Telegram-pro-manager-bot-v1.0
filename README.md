@@ -1,7 +1,7 @@
 ## Telegram pro manager bot
 use this telegram bot, do not forgot "pip install python-telegram-bot" and "pip install pytz" , also cheek lines between 37 - 56
 
-#Commands: 
+##Commands: 
 /cmd
 /add
 /res
