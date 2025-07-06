@@ -147,7 +147,7 @@ async def mainapp(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if any(bad_word in msg_text for bad_word in bad_words):
         try:
             await message.delete()
-            warning = await context.bot.send_message(chat_id=chat_id, text="فحش ندهید باتشکر")
+            warning = await context.bot.send_message(chat_id=chat_id, text="watch your mouth!")
             await asyncio.sleep(2)  # wait 2 seconds
             await context.bot.delete_message(chat_id=chat_id, message_id=warning.message_id)
         except Exception as e:
